@@ -21,12 +21,12 @@ export interface IPowerBiReport1WebPartProps {
 
 export default class PowerBiReport1WebPart extends BaseClientSideWebPart<IPowerBiReport1WebPartProps> {
 
-  private workspaceId: string = "2b6e15ec-ac39-47d5-adeb-4851114d59d5";
-  private reportId: string = "eedf8f6b-1c69-4c51-931d-f1c06dcdf36d";
+  private workspaceId: string = "7f4576c7-039a-472f-b998-546a572d5da2";
+  private reportId: string = "ba274ba0-93be-4e53-af65-fdc8a559c557";
 
   public render(): void {
 
-    if(!this.renderedOnce){
+    if (!this.renderedOnce) {
       this.domElement.style.margin = "0px";
       this.domElement.style.padding = "0px";
     }
