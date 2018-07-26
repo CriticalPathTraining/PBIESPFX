@@ -1,26 +1,9 @@
-## cpt-powerbi-webparts
+## cpt-powerbi-spfx-webparts
 
-This is where you include your WebPart documentation.
+This project provides a demonstration of SharePoint Framework web parts that implement Power BI embedding. In order for the demonstration to work, you must build the project and then publish it to the App Catalog in the tenant where you are developing   
 
-### Building the code
+### Building the project
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
+gulp bundle --ship
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+gulp package-solution --ship
